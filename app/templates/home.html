@@ -1,0 +1,15 @@
+<!-- school_management.html -->
+{% extends "base.html" %}
+
+{% block title %}School Management{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<div class="centered-content">
+    <div class="school-info">
+        <h1>Welcome to Our School Management System</h1>
+        <p>Our School Management System is designed to streamline administrative tasks, enhance communication, and provide a comprehensive solution for managing all aspects of school operations. From student enrollment and attendance tracking to grade management and parent-teacher communications, our system is tailored to meet the unique needs of educational institutions.</p>
+        <p>Explore our features and see how we can help you create a more efficient and effective educational environment.</p>
+    </div>
+</div>
+{% endblock %}
